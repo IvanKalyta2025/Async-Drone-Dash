@@ -1,0 +1,15 @@
+/Users/ivan/Desktop/Async Drone Dash/Droneasync_await/bin/Debug/net9.0/Droneasync_await
+/Users/ivan/Desktop/Async Drone Dash/Droneasync_await/bin/Debug/net9.0/Droneasync_await.deps.json
+/Users/ivan/Desktop/Async Drone Dash/Droneasync_await/bin/Debug/net9.0/Droneasync_await.runtimeconfig.json
+/Users/ivan/Desktop/Async Drone Dash/Droneasync_await/bin/Debug/net9.0/Droneasync_await.dll
+/Users/ivan/Desktop/Async Drone Dash/Droneasync_await/bin/Debug/net9.0/Droneasync_await.pdb
+/Users/ivan/Desktop/Async Drone Dash/Droneasync_await/obj/Debug/net9.0/Droneasync_await.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ivan/Desktop/Async Drone Dash/Droneasync_await/obj/Debug/net9.0/Droneasync_await.AssemblyInfoInputs.cache
+/Users/ivan/Desktop/Async Drone Dash/Droneasync_await/obj/Debug/net9.0/Droneasync_await.AssemblyInfo.cs
+/Users/ivan/Desktop/Async Drone Dash/Droneasync_await/obj/Debug/net9.0/Droneasync_await.csproj.CoreCompileInputs.cache
+/Users/ivan/Desktop/Async Drone Dash/Droneasync_await/obj/Debug/net9.0/Droneasync_await.sourcelink.json
+/Users/ivan/Desktop/Async Drone Dash/Droneasync_await/obj/Debug/net9.0/Droneasync_await.dll
+/Users/ivan/Desktop/Async Drone Dash/Droneasync_await/obj/Debug/net9.0/refint/Droneasync_await.dll
+/Users/ivan/Desktop/Async Drone Dash/Droneasync_await/obj/Debug/net9.0/Droneasync_await.pdb
+/Users/ivan/Desktop/Async Drone Dash/Droneasync_await/obj/Debug/net9.0/Droneasync_await.genruntimeconfig.cache
+/Users/ivan/Desktop/Async Drone Dash/Droneasync_await/obj/Debug/net9.0/ref/Droneasync_await.dll
