@@ -3,15 +3,33 @@
     Console.WriteLine($"Drone {name} is taking off at speed {speed} km/h.");
 
     var maxCheckpoints = 10;
-    for (i = 0; i < maxCheckpoints; i++)
+    for (int i = 0; i < maxCheckpoints; i++)
     {
         await Task.Delay(500);
         Console.WriteLine($"{name} Reached checkpoint {i}.");
+        if (name == "Charlie" && i == 3)
+        {
+            throw new Exception($"FATAL ERROR!!! Collision detected on Drone {name} at checkpoint {i}.");
+        }
     }
+    Console.WriteLine($"Drone {name} has landed successfully.");
 
 
 
     Task flightAlpha = FlyDrone("Alpha", 50);
     Task flightBravo = FlyDrone("Bravo", 70);
     Task flightCharlie = FlyDrone("Charlie", 60);
+
+    Task allDrones = Task.WhenAll(flightAlpha, flightBravo, flightCharlie);
+
+    try
+    {
+        await allDrones;
+        Console.WriteLine(" Task.WhenAll (+)");
+    }
+
+    catch
+    {
+
+    }
 }
