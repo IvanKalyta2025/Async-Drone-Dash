@@ -6,6 +6,17 @@ using System.Net.Security;
 using System.Threading;
 
 
+
+
+Console.WriteLine("1 - Thread + Join");
+Console.WriteLine("2 - Task + TCS");
+Console.WriteLine("3 - async/await");
+Console.WriteLine("4 - API");
+
+var input 
+
+
+
 // async Task Runway(string name, int speed)
 // {
 //     Console.WriteLine($"Drone {name} is taking off at speed {speed} km/h.");
@@ -26,22 +37,25 @@ using System.Threading;
 // await Runway("Charlie", 60);
 
 
-var t = new Thread(() =>
+
+
+void PartA()
 {
-    string name = "Alpha";
-    int speed = 50;
-    Thread.Sleep(2000);
-    Console.WriteLine($"Monitoring drone operations for {name} at speed {speed} km/h...");
-    var monitorCheckpoints = 10;
-    for (int i = 1; i < monitorCheckpoints; i++)
+
+    var t = new Thread(() =>
     {
-        Console.WriteLine($"Monitoring checkpoint {i} for drone {name}.");
-        Thread.Sleep(640);
-    }
-    Console.WriteLine($"Monitoring completed for drone {name}.");
-});
-t.Start();
-t.Join();
+        string name = "Alpha";
+        int speed = 50;
+        Thread.Sleep(2000);
+        Console.WriteLine($"Monitoring drone operations for {name} at speed {speed} km/h...");
+        var monitorCheckpoints = 10;
+        for (int i = 1; i < monitorCheckpoints; i++)
+        {
+            Console.WriteLine($"Monitoring checkpoint {i} for drone {name}.");
+            Thread.Sleep(640);
+        }
+        Console.WriteLine($"Monitoring completed for drone {name}.");
+    });
 
 var t2 = new Thread(() =>
 {
@@ -57,5 +71,30 @@ var t2 = new Thread(() =>
     }
     Console.WriteLine($"Monitoring completed for drone {name}.");
 });
+
+
 t2.Start();
 t2.Join();
+
+t.Start();
+t.Join();
+Console.WriteLine("All drones finished");
+
+}
+
+void PardB
+{
+
+}
+
+void PartC
+{
+
+}
+
+void PartD
+{
+
+}
+
+
