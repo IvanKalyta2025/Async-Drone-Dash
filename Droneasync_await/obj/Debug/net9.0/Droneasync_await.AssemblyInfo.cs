@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Droneasync_await")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d91bd85c535dd2c2fe3b47edb862dd15703ee62")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d667180b841812e8bc3ff1577b25b2155437e4c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Droneasync_await")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Droneasync_await")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

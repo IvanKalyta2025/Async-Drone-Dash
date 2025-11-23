@@ -1,4 +1,5 @@
-﻿async Task FlyDrone(string name, int speed)
+﻿
+async Task FlyDrone(string name, int speed)
 {
     Console.WriteLine($"Drone {name} is taking off at speed {speed} km/h.");
 
@@ -13,23 +14,29 @@
         }
     }
     Console.WriteLine($"Drone {name} has landed successfully.");
+}
 
 
+Task flightAlpha = FlyDrone("Alpha", 50);
+Task flightBravo = FlyDrone("Bravo", 70);
+Task flightCharlie = FlyDrone("Charlie", 60);
 
-    Task flightAlpha = FlyDrone("Alpha", 50);
-    Task flightBravo = FlyDrone("Bravo", 70);
-    Task flightCharlie = FlyDrone("Charlie", 60);
+Task allDrones = Task.WhenAll(flightAlpha, flightBravo, flightCharlie);
 
-    Task allDrones = Task.WhenAll(flightAlpha, flightBravo, flightCharlie);
+try
+{
+    await allDrones;
+    Console.WriteLine(" Task.WhenAll (+)");
+}
 
-    try
+catch
+{
+    if (allDrones.Exception != null)
     {
-        await allDrones;
-        Console.WriteLine(" Task.WhenAll (+)");
-    }
-
-    catch
-    {
-
+        // Вывод деталей ошибки
+        foreach (var innerEx in allDrones.Exception.InnerExceptions)
+        {
+            Console.WriteLine($"Detailed Failure: {innerEx.Message}");
+        }
     }
 }
