@@ -14,3 +14,5 @@ void Runway(string name, int speed)
         Console.WriteLine($"{name} reached checkpoint {i}.");
     }
 }
+
+Runway("Alpha", 50);
