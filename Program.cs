@@ -26,7 +26,7 @@ switch (input)
 
     case
         "2":
-        await PartB();
+        PartB();
         break;
     case
         "3":
@@ -111,29 +111,26 @@ void PartA()
 
 }
 
-async Task PartB()
+void PartB()
+
+//task,TaskCompletionSource,taskwhwnall.Task.WhenAll 
 {
-    async Task Runway(string name, int speed)
+    TaskCompletionSource<bool> DroneBrain = new TaskCompletionSource<bool>();
+    TaskCompletionSource<bool> DroneMishel = new TaskCompletionSource<bool>();
+
+    Task FlyDrone(string name, int speed)
     {
-        Console.WriteLine($"Drone {name} is taking off at speed {speed} km/h.");
+        name = "Brain";
+        speed = 100;
+        Thread.Sleep(2000);
 
-        var maxCheckpoints = 10;
-
-        for (int i = 1; i < maxCheckpoints; i++)
-        {
-            Console.WriteLine($"{name} reached checkpoint {i}.");
-            await Task.Delay(640);
-            Console.WriteLine($"{name} is flying...");
-        }
-        Console.WriteLine($"Drone {name} has landed successfully.");
+        FlyDrone("Brain", 100);
+        return Task.CompletedTask;
     }
 
-    await Runway("Alpha", 50);
-    await Runway("Bravo", 70);
-    await Runway("Charlie", 60);
+
 
 }
-
 
 
 void PartC()
