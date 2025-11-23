@@ -1,0 +1,15 @@
+/Users/ivan/Desktop/Async Drone Dash/DroneThread/bin/Debug/net9.0/DroneThread
+/Users/ivan/Desktop/Async Drone Dash/Dronethread/bin/Debug/net9.0/DroneThread.deps.json
+/Users/ivan/Desktop/Async Drone Dash/Dronethread/bin/Debug/net9.0/DroneThread.runtimeconfig.json
+/Users/ivan/Desktop/Async Drone Dash/DroneThread/bin/Debug/net9.0/DroneThread.dll
+/Users/ivan/Desktop/Async Drone Dash/DroneThread/bin/Debug/net9.0/DroneThread.pdb
+/Users/ivan/Desktop/Async Drone Dash/DroneThread/obj/Debug/net9.0/DroneThread.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ivan/Desktop/Async Drone Dash/DroneThread/obj/Debug/net9.0/DroneThread.AssemblyInfoInputs.cache
+/Users/ivan/Desktop/Async Drone Dash/DroneThread/obj/Debug/net9.0/DroneThread.AssemblyInfo.cs
+/Users/ivan/Desktop/Async Drone Dash/DroneThread/obj/Debug/net9.0/DroneThread.csproj.CoreCompileInputs.cache
+/Users/ivan/Desktop/Async Drone Dash/DroneThread/obj/Debug/net9.0/DroneThread.sourcelink.json
+/Users/ivan/Desktop/Async Drone Dash/DroneThread/obj/Debug/net9.0/DroneThread.dll
+/Users/ivan/Desktop/Async Drone Dash/DroneThread/obj/Debug/net9.0/refint/DroneThread.dll
+/Users/ivan/Desktop/Async Drone Dash/DroneThread/obj/Debug/net9.0/DroneThread.pdb
+/Users/ivan/Desktop/Async Drone Dash/Dronethread/obj/Debug/net9.0/DroneThread.genruntimeconfig.cache
+/Users/ivan/Desktop/Async Drone Dash/Dronethread/obj/Debug/net9.0/ref/DroneThread.dll
