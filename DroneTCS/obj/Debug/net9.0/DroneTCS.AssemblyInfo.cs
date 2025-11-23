@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DroneTCS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+632ffa138cfd2eefe60c7a83626da820eaf68f02")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0d58b83daaf0a2465d63f52f89538c2fb8e5929")]
 [assembly: System.Reflection.AssemblyProductAttribute("DroneTCS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DroneTCS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

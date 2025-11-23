@@ -11,7 +11,7 @@ async Task FlyDrone(string name, int speed, TaskCompletionSource<bool> tcs)
 
     try
     {
-        for (int i = 1; i < monitorCheckpoints; i++)
+        for (int i = 0; i < monitorCheckpoints; i++)
         {
             Console.WriteLine($"Monitoring checkpoint {i} for drone {name}.");
             await Task.Delay(640);
@@ -56,9 +56,6 @@ catch
     }
 }
 await Task.WhenAll(flightBrian, flightMichelle);
-
-
-
 
 
 
