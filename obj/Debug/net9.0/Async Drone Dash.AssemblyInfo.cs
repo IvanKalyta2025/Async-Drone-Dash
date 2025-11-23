@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Async Drone Dash")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b24447f95591c7cdf1be01c6f43b6e862c4ac1a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39a8cdf348a331ef3bfff222ed6c08e0a0894a72")]
 [assembly: System.Reflection.AssemblyProductAttribute("Async Drone Dash")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Async Drone Dash")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
