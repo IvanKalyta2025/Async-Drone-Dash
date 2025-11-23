@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Async Drone Dash")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("DroneTCS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c1d75d66a7bdb9374a83a6bf63dc712bf96d9b4")]
-[assembly: System.Reflection.AssemblyProductAttribute("Async Drone Dash")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Async Drone Dash")]
+[assembly: System.Reflection.AssemblyProductAttribute("DroneTCS")]
+[assembly: System.Reflection.AssemblyTitleAttribute("DroneTCS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.

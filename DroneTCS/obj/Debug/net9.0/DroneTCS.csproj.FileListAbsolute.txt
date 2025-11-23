@@ -1,0 +1,15 @@
+/Users/ivan/Desktop/Async Drone Dash/DroneTCS/bin/Debug/net9.0/DroneTCS
+/Users/ivan/Desktop/Async Drone Dash/DroneTCS/bin/Debug/net9.0/DroneTCS.deps.json
+/Users/ivan/Desktop/Async Drone Dash/DroneTCS/bin/Debug/net9.0/DroneTCS.runtimeconfig.json
+/Users/ivan/Desktop/Async Drone Dash/DroneTCS/bin/Debug/net9.0/DroneTCS.dll
+/Users/ivan/Desktop/Async Drone Dash/DroneTCS/bin/Debug/net9.0/DroneTCS.pdb
+/Users/ivan/Desktop/Async Drone Dash/DroneTCS/obj/Debug/net9.0/DroneTCS.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ivan/Desktop/Async Drone Dash/DroneTCS/obj/Debug/net9.0/DroneTCS.AssemblyInfoInputs.cache
+/Users/ivan/Desktop/Async Drone Dash/DroneTCS/obj/Debug/net9.0/DroneTCS.AssemblyInfo.cs
+/Users/ivan/Desktop/Async Drone Dash/DroneTCS/obj/Debug/net9.0/DroneTCS.csproj.CoreCompileInputs.cache
+/Users/ivan/Desktop/Async Drone Dash/DroneTCS/obj/Debug/net9.0/DroneTCS.sourcelink.json
+/Users/ivan/Desktop/Async Drone Dash/DroneTCS/obj/Debug/net9.0/DroneTCS.dll
+/Users/ivan/Desktop/Async Drone Dash/DroneTCS/obj/Debug/net9.0/refint/DroneTCS.dll
+/Users/ivan/Desktop/Async Drone Dash/DroneTCS/obj/Debug/net9.0/DroneTCS.pdb
+/Users/ivan/Desktop/Async Drone Dash/DroneTCS/obj/Debug/net9.0/DroneTCS.genruntimeconfig.cache
+/Users/ivan/Desktop/Async Drone Dash/DroneTCS/obj/Debug/net9.0/ref/DroneTCS.dll

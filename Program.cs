@@ -78,7 +78,7 @@ void PartA()
         Thread.Sleep(2000);
         Console.WriteLine($"Monitoring drone operations for {name} at speed {speed} km/h...");
         var monitorCheckpoints = 10;
-        for (int i = 1; i < monitorCheckpoints; i++)
+        for (int i = 0; i < monitorCheckpoints; i++)
         {
             Console.WriteLine($"Monitoring checkpoint {i} for drone {name}.");
             Thread.Sleep(640);
@@ -93,7 +93,7 @@ void PartA()
         Thread.Sleep(2000);
         Console.WriteLine($"Monitoring drone operations for {name} at speed {speed} km/h...");
         var monitorCheckpoints = 10;
-        for (int i = 1; i < monitorCheckpoints; i++)
+        for (int i = 0; i < monitorCheckpoints; i++)
         {
             Console.WriteLine($"Monitoring checkpoint {i} for drone {name}.");
             Thread.Sleep(640);
@@ -116,18 +116,19 @@ void PartB()
 //task,TaskCompletionSource,taskwhwnall.Task.WhenAll 
 {
     TaskCompletionSource<bool> DroneBrain = new TaskCompletionSource<bool>();
-    TaskCompletionSource<bool> DroneMishel = new TaskCompletionSource<bool>();
+    TaskCompletionSource<bool> DroneMichel = new TaskCompletionSource<bool>();
 
     Task FlyDrone(string name, int speed)
     {
-        name = "Brain";
-        speed = 100;
-        Thread.Sleep(2000);
-
+        var monitorCheckpoints = 10;
+        for (int i = 1; i < monitorCheckpoints; i++)
+        {
+            Console.WriteLine($"Monitoring checkpoint {i} for drone {name}.");
+            Thread.Sleep(640);
+        }
         FlyDrone("Brain", 100);
         return Task.CompletedTask;
     }
-
 
 
 }
