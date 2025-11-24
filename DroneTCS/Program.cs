@@ -1,7 +1,7 @@
 ﻿//task,TaskCompletionSource,taskwhwnall.Task.WhenAll 
 
-TaskCompletionSource<bool> DroneBrain = new TaskCompletionSource<bool>();
-TaskCompletionSource<bool> DroneMichelle = new TaskCompletionSource<bool>();
+var DroneBrain = new TaskCompletionSource<bool>();
+var DroneMichelle = new TaskCompletionSource<bool>();
 
 async Task FlyDrone(string name, int speed, TaskCompletionSource<bool> tcs)
 {
