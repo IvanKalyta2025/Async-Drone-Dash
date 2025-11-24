@@ -33,7 +33,6 @@ catch
 {
     if (allDrones.Exception != null)
     {
-        // Вывод деталей ошибки
         foreach (var innerEx in allDrones.Exception.InnerExceptions)
         {
             Console.WriteLine($"Detailed Failure: {innerEx.Message}");
