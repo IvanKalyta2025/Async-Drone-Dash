@@ -1,0 +1,15 @@
+/Users/ivan/Desktop/Async Drone Dash/TestTCS/bin/Debug/net9.0/TestTCS
+/Users/ivan/Desktop/Async Drone Dash/TestTCS/bin/Debug/net9.0/TestTCS.deps.json
+/Users/ivan/Desktop/Async Drone Dash/TestTCS/bin/Debug/net9.0/TestTCS.runtimeconfig.json
+/Users/ivan/Desktop/Async Drone Dash/TestTCS/bin/Debug/net9.0/TestTCS.dll
+/Users/ivan/Desktop/Async Drone Dash/TestTCS/bin/Debug/net9.0/TestTCS.pdb
+/Users/ivan/Desktop/Async Drone Dash/TestTCS/obj/Debug/net9.0/TestTCS.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ivan/Desktop/Async Drone Dash/TestTCS/obj/Debug/net9.0/TestTCS.AssemblyInfoInputs.cache
+/Users/ivan/Desktop/Async Drone Dash/TestTCS/obj/Debug/net9.0/TestTCS.AssemblyInfo.cs
+/Users/ivan/Desktop/Async Drone Dash/TestTCS/obj/Debug/net9.0/TestTCS.csproj.CoreCompileInputs.cache
+/Users/ivan/Desktop/Async Drone Dash/TestTCS/obj/Debug/net9.0/TestTCS.sourcelink.json
+/Users/ivan/Desktop/Async Drone Dash/TestTCS/obj/Debug/net9.0/TestTCS.dll
+/Users/ivan/Desktop/Async Drone Dash/TestTCS/obj/Debug/net9.0/refint/TestTCS.dll
+/Users/ivan/Desktop/Async Drone Dash/TestTCS/obj/Debug/net9.0/TestTCS.pdb
+/Users/ivan/Desktop/Async Drone Dash/TestTCS/obj/Debug/net9.0/TestTCS.genruntimeconfig.cache
+/Users/ivan/Desktop/Async Drone Dash/TestTCS/obj/Debug/net9.0/ref/TestTCS.dll

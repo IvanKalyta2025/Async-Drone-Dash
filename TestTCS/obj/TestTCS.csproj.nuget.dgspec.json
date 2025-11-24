@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ivan/Desktop/Async Drone Dash/DroneThread/DroneThread.csproj": {}
+    "/Users/ivan/Desktop/Async Drone Dash/TestTCS/TestTCS.csproj": {}
   },
   "projects": {
-    "/Users/ivan/Desktop/Async Drone Dash/DroneThread/DroneThread.csproj": {
+    "/Users/ivan/Desktop/Async Drone Dash/TestTCS/TestTCS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ivan/Desktop/Async Drone Dash/DroneThread/DroneThread.csproj",
-        "projectName": "DroneThread",
-        "projectPath": "/Users/ivan/Desktop/Async Drone Dash/DroneThread/DroneThread.csproj",
+        "projectUniqueName": "/Users/ivan/Desktop/Async Drone Dash/TestTCS/TestTCS.csproj",
+        "projectName": "TestTCS",
+        "projectPath": "/Users/ivan/Desktop/Async Drone Dash/TestTCS/TestTCS.csproj",
         "packagesPath": "/Users/ivan/.nuget/packages/",
-        "outputPath": "/Users/ivan/Desktop/Async Drone Dash/DroneThread/obj/",
+        "outputPath": "/Users/ivan/Desktop/Async Drone Dash/TestTCS/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ivan/.nuget/NuGet/NuGet.Config"

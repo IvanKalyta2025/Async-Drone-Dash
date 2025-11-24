@@ -1,5 +1,4 @@
-﻿//task,TaskCompletionSource,taskwhwnall.Task.WhenAll 
-
+﻿
 var DroneBrain = new TaskCompletionSource<bool>();
 var DroneMichelle = new TaskCompletionSource<bool>();
 
@@ -31,8 +30,7 @@ async Task FlyDrone(string name, int speed, TaskCompletionSource<bool> tcs)
         tcs.SetException(fatal_error);
     }
 
-    // FlyDrone("Brain", 100);
-    // return Task.CompletedTask;
+
 }
 Task flightBrian = FlyDrone("Brian", 100, DroneBrain);
 Task flightMichelle = FlyDrone("Michelle", 80, DroneMichelle);
@@ -48,7 +46,6 @@ catch
 {
     if (allFlightsCompleted.Exception != null)
     {
-        // Task.Exception является AggregateException, который содержит все ошибки
         foreach (var innerEx in allFlightsCompleted.Exception.InnerExceptions)
         {
             Console.WriteLine($"Detailed Failure: {innerEx.Message}");
